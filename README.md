@@ -1,10 +1,6 @@
 # Bosca Ceoil - Purple
 
 <p align="center">
-  <img src="dist/logo-full.png" alt="Bosca Ceoil - Purple">
-</p>
-
-<p align="center">
   A community modification of Bosca Ceoil Blue
 </p>
 
