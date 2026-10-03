@@ -1,0 +1,293 @@
+[gd_scene load_steps=5 format=3 uid="uid://ggnvgntxytdg"]
+
+[ext_resource type="Script" path="res://gui/views/AdvancedView.gd" id="1_lhikh"]
+[ext_resource type="PackedScene" uid="uid://d2peohvka6nmb" path="res://gui/widgets/Stepper.tscn" id="1_uibd1"]
+[ext_resource type="PackedScene" uid="uid://dpno0cpboqdm0" path="res://gui/widgets/OptionPicker.tscn" id="3_ttw6g"]
+[ext_resource type="PackedScene" uid="uid://dtvff0pavdph7" path="res://gui/widgets/PadSlider.tscn" id="3_xr70i"]
+
+[node name="AdvancedView" type="MarginContainer"]
+auto_translate_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lhikh")
+
+[node name="Layout" type="HBoxContainer" parent="."]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="FillerStart" type="Control" parent="Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Tuning" type="PanelContainer" parent="Layout"]
+auto_translate_mode = 1
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Contents" type="VBoxContainer" parent="Layout/Tuning"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"VBoxSpaced"
+
+[node name="Label" type="Label" parent="Layout/Tuning/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "SONG SETTINGS"
+uppercase = true
+
+[node name="EffectSettings" type="PanelContainer" parent="Layout/Tuning/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/Tuning/Contents/EffectSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/Tuning/Contents/EffectSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "EFFECT"
+uppercase = true
+
+[node name="EffectPicker" parent="Layout/Tuning/Contents/EffectSettings/Layout" instance=ExtResource("3_ttw6g")]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "NAME"
+
+[node name="EffectValueSlider" parent="Layout/Tuning/Contents/EffectSettings/Layout" instance=ExtResource("3_xr70i")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+axis_mode = 1
+horizontal_range = Vector2i(0, 130)
+vertical_range = Vector2i(0, 0)
+
+[node name="SwingSettings" type="PanelContainer" parent="Layout/Tuning/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/Tuning/Contents/SwingSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/Tuning/Contents/SwingSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "SWING"
+uppercase = true
+
+[node name="SwingStepper" parent="Layout/Tuning/Contents/SwingSettings/Layout" instance=ExtResource("1_uibd1")]
+unique_name_in_owner = true
+auto_translate_mode = 1
+layout_mode = 2
+min_value = -10
+max_value = 10
+
+[node name="FillerMiddle" type="Control" parent="Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ExtraControls" type="PanelContainer" parent="Layout"]
+auto_translate_mode = 1
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Contents" type="VBoxContainer" parent="Layout/ExtraControls"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"VBoxSpaced"
+
+[node name="Label" type="Label" parent="Layout/ExtraControls/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "APP SETTINGS"
+uppercase = true
+
+[node name="BufferSettings" type="PanelContainer" parent="Layout/ExtraControls/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/ExtraControls/Contents/BufferSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/ExtraControls/Contents/BufferSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "SOUND BUFFER"
+uppercase = true
+
+[node name="BufferPicker" parent="Layout/ExtraControls/Contents/BufferSettings/Layout" instance=ExtResource("3_ttw6g")]
+unique_name_in_owner = true
+layout_mode = 2
+direction = 1
+placeholder_text = "0000"
+
+[node name="GUIScaleSettings" type="PanelContainer" parent="Layout/ExtraControls/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/ExtraControls/Contents/GUIScaleSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/ExtraControls/Contents/GUIScaleSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "GUI SCALE"
+uppercase = true
+
+[node name="GUIScalePicker" parent="Layout/ExtraControls/Contents/GUIScaleSettings/Layout" instance=ExtResource("3_ttw6g")]
+unique_name_in_owner = true
+layout_mode = 2
+direction = 1
+placeholder_text = "100%"
+
+[node name="NoteFormatSettings" type="PanelContainer" parent="Layout/ExtraControls/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/ExtraControls/Contents/NoteFormatSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/ExtraControls/Contents/NoteFormatSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "NOTE FORMAT"
+uppercase = true
+
+[node name="NoteFormatPicker" parent="Layout/ExtraControls/Contents/NoteFormatSettings/Layout" instance=ExtResource("3_ttw6g")]
+unique_name_in_owner = true
+layout_mode = 2
+direction = 1
+placeholder_text = "CDEFGAB"
+
+[node name="ColorModeSettings" type="PanelContainer" parent="Layout/ExtraControls/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/ExtraControls/Contents/ColorModeSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/ExtraControls/Contents/ColorModeSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "COLOR MODE"
+uppercase = true
+
+[node name="ColorModePicker" parent="Layout/ExtraControls/Contents/ColorModeSettings/Layout" instance=ExtResource("3_ttw6g")]
+unique_name_in_owner = true
+layout_mode = 2
+direction = 1
+placeholder_text = "ULTRA SOFT"
+
+[node name="ColorSaturationSettings" type="PanelContainer" parent="Layout/ExtraControls/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/ExtraControls/Contents/ColorSaturationSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/ExtraControls/Contents/ColorSaturationSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "COLOR SATURATION"
+uppercase = true
+
+[node name="ColorSaturationStepper" parent="Layout/ExtraControls/Contents/ColorSaturationSettings/Layout" instance=ExtResource("1_uibd1")]
+unique_name_in_owner = true
+layout_mode = 2
+min_value = -80
+max_value = 80
+value = -60
+step = 10
+
+[node name="ColorBrightnessSettings" type="PanelContainer" parent="Layout/ExtraControls/Contents"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_type_variation = &"WidgetPanel"
+
+[node name="Layout" type="HBoxContainer" parent="Layout/ExtraControls/Contents/ColorBrightnessSettings"]
+auto_translate_mode = 1
+layout_mode = 2
+theme_type_variation = &"HBoxSpaced"
+alignment = 1
+
+[node name="Label" type="Label" parent="Layout/ExtraControls/Contents/ColorBrightnessSettings/Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+text = "COLOR BRIGHTNESS"
+uppercase = true
+
+[node name="ColorBrightnessStepper" parent="Layout/ExtraControls/Contents/ColorBrightnessSettings/Layout" instance=ExtResource("1_uibd1")]
+unique_name_in_owner = true
+layout_mode = 2
+min_value = -80
+max_value = 80
+value = -20
+step = 10
+
+[node name="FillerEnd" type="Control" parent="Layout"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3

@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_CN\n"
+
+msgid "FILE"
+msgstr "文件"
+
+msgid "ARRANGEMENT"
+msgstr "编曲"
+
+msgid "INSTRUMENT"
+msgstr "乐器"
+
+msgid "ADVANCED"
+msgstr "高级"
+
+msgid "TUTORIALS & SHORTCUTS"
+msgstr "教程与快捷键"
+
+msgid "NEW SONG"
+msgstr "新建乐曲"
+
+msgid "LOAD"
+msgstr "载入"
+
+msgid "SAVE"
+msgstr "保存"
+
+msgid "IMPORT..."
+msgstr "导入…"
+
+msgid "EXPORT..."
+msgstr "导出…"
+
+msgid "PATTERN"
+msgstr "音型"
+
+msgid "BPM"
+msgstr "速度"
+
+msgid "CREDITS"
+msgstr "致谢"
+
+msgid "HELP"
+msgstr "帮助"
+
+msgid "Purple"
+msgstr "紫色专辑"
+
+msgid "Created by Terry Cavanagh & Yuri Sizov"
+msgstr "由 Terry Cavanagh 与 Yuri Sizov 创作"
+
+msgid "SONG SETTINGS"
+msgstr "乐曲设置"
+
+msgid "APP SETTINGS"
+msgstr "应用设置"
+
+msgid "GUI SCALE"
+msgstr "界面缩放"
+
+msgid "SOUND BUFFER"
+msgstr "声音缓冲"
+
+msgid "NOTE FORMAT"
+msgstr "音名格式"
+
+msgid "SWING"
+msgstr "摇摆律动"
+
+msgid "EFFECT"
+msgstr "效果器"
+
+msgid "VOL"
+msgstr "音量"
+
+msgid "REC"
+msgstr "录制"
+
+msgid "SELECT"
+msgstr "选择"
+
+msgid "SHOW ALL"
+msgstr "全部显示"
+
+msgid "ADD ITEM"
+msgstr "添加项目"
+
+msgid "DELETE?"
+msgstr "删除？"
+
+msgid "DROP TO CONFIRM"
+msgstr "拖放至此确认删除"
+
+msgid "BACK"
+msgstr "返回"
+
+msgid "GENERAL"
+msgstr "常规"
+
+msgid "BASIC GUIDE"
+msgstr "基础指南"
+
+msgid "TIPS AND TRICKS"
+msgstr "技巧与提示"
+
+msgid "PLAYBACK"
+msgstr "播放"
+
+msgid "PATTERNS"
+msgstr "音型"
+
+msgid "TIMELINE"
+msgstr "时间线"
+
+msgid "INSTRUMENT #"
+msgstr "乐器 #"
+
+msgid "! RECORDING: PATTERN # !"
+msgstr "！正在录制：音型 #！"
+
+msgid "EXPORT BARS"
+msgstr "导出小节"
+
+msgid "FILE TYPE"
+msgstr "文件类型"
+
+msgid "PLEASE WAIT"
+msgstr "请稍候"
+
+msgid "MESSAGE!"
+msgstr "提示！"
+
+msgid "LOW PASS FILTER PAD"
+msgstr "低通滤波控制板"
+
+msgid "0 means AUTO"
+msgstr "0 表示自动"
+
+msgid "No file selected"
+msgstr "未选择文件"
+
+msgid "Grid resolution: 16 = sixteenth notes, 32 = thirty-second notes."
+msgstr "网格精度：16 为十六分音符，32 为三十二分音符。"
+
+msgid "(HOLD and DRAG to select multiple notes)"
+msgstr "（按住并拖动可框选多个音符）"
+
+msgid "(CLICK on empty space to reset the size)"
+msgstr "（点击空白处可重置大小）"
+
+msgid "(notes can partially overlap)"
+msgstr "（音符可以部分重叠）"
+
+msgid "(HOLD and DRAG to select multiple bars)"
+msgstr "（按住并拖动可选择多个小节）"
+
+msgid "DRAG'N'DROP patterns on grid to copy them."
+msgstr "在网格上拖放音型即可复制。"
+
+msgid "DOUBLE CLICK on the scroll bar to center the pattern view!"
+msgstr "双击滚动条可让音型视图居中！"
+
+msgid "MIDDLE CLICK can be replaced with SHIFT + LEFT CLICK!"
+msgstr "可用 Shift + 左键代替鼠标中键！"
+
+msgid "Or hold ALT while dragging/clicking to create a variant!"
+msgstr "拖动或点击时按住 Alt 可创建变体！"
+
+msgid "This works across different patterns too!"
+msgstr "不同音型之间也同样适用！"
+
+msgid "Pattern drawing"
+msgstr "绘制音型"
+
+msgid "Pattern stamping"
+msgstr "盖印音型"
+
+msgid "Arrangement building"
+msgstr "编排乐曲"
+
+msgid "Arrangement grid"
+msgstr "编曲网格"
+
+msgid "Timeline editing"
+msgstr "编辑时间线"
+
+msgid "Timeline loop"
+msgstr "时间线循环"
+
+msgid "Basic shortcuts"
+msgstr "基础快捷键"
+
+msgid "General shortcuts"
+msgstr "通用快捷键"
+
+msgid "Pattern editor fixes"
+msgstr "音型编辑器修复"
+
+msgid "Swing function"
+msgstr "摇摆功能"
+
+msgid "Picker"
+msgstr "选择器"
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid "Information"
+msgstr "信息"
+
+msgid "Credits & License"
+msgstr "致谢与许可证"
+
+msgid "Contributors"
+msgstr "贡献者"
+
+msgid "THIRD PARTY"
+msgstr "第三方"
+
+msgid "LEGACY CREDITS"
+msgstr "原版致谢"
+
+msgid "Report issues"
+msgstr "报告问题"
+
+msgid "Support the project <3"
+msgstr "支持此项目 <3"
+
+msgid "Provided under an MIT license"
+msgstr "以 MIT 许可证发布"
+
+msgid "Made with Godot Engine"
+msgstr "使用 Godot 引擎制作"
+
+msgid "Online version"
+msgstr "在线版本"
+
+msgid "Linux port"
+msgstr "Linux 移植版"
+
+msgid "Import from external format"
+msgstr "从外部格式导入"
+
+msgid "Export to external format"
+msgstr "导出为外部格式"
+
+msgid "Standard MIDI file."
+msgstr "标准 MIDI 文件。"
+
+msgid "Waveform file."
+msgstr "波形音频文件。"
+
+msgid "FastTracker 2 XM file."
+msgstr "FastTracker 2 XM 文件。"
+
+msgid "Music Macro Language file with SiON flavor."
+msgstr "使用 SiON 方言的音乐宏语言文件。"
+
+msgid "External formats may be incompatible with Bosca in various ways. Import is done on the best-effort basis."
+msgstr "外部格式可能在不同方面与 Bosca 不兼容；导入会尽力保留数据。"
+
+msgid "[UNBOUND]"
+msgstr "[未绑定]"
+
+msgid "- Requires SiON/GDSiON-based software to play."
+msgstr "- 需要基于 SiON/GDSiON 的软件才能播放。"
+
+msgid "- Volume is normalized, which may result in minimal precision loss."
+msgstr "- 已进行音量标准化，可能造成极少量精度损失。"
+
+msgid "- Supports only 15 unique instruments + 1 drumkit."
+msgstr "- 仅支持 15 个独立乐器加 1 个鼓组。"
+
+msgid "- Non-MIDI Bosca instruments are converted to their closest MIDI approximation."
+msgstr "- 非 MIDI 的 Bosca 乐器会转换为最接近的 MIDI 音色。"
+
+msgid "- Low-pass filter and instrument recording are not supported."
+msgstr "- 不支持低通滤波器和乐器录制。"
+
+msgid "- Supports up to 256 bars in the arrangement."
+msgstr "- 编曲最多支持 256 个小节。"
+
+msgid "- Only one sample per instrument is rendered, which may affect the playback."
+msgstr "- 每种乐器仅渲染一个采样，可能影响回放效果。"
+
+msgid "- Universally supported by media players, music and video production software, game engines, etc."
+msgstr "- 媒体播放器、音视频制作软件、游戏引擎等普遍支持。"
+
+msgid "- What you hear is what you get."
+msgstr "- 所听即所得。"
+
+msgid "External formats may be incompatible with Bosca in various ways. Import is done on the best-effort basis.\nBut feel free to experiment!"
+msgstr "外部格式可能在不同方面与 Bosca 不兼容；导入会尽力完成。\n不过，欢迎自由尝试！"
+
+msgid "Learn about some of the more\nadvanced features:"
+msgstr "了解一些更进阶的功能："
+
+msgid "Learn the basics of how to make\na song in Bosca Ceoil:"
+msgstr "学习如何在 Bosca Ceoil 中\n创作乐曲："
+
+msgid "Original Bosca Ceoil was made possible thanks to these\ncontributors!"
+msgstr "原版 Bosca Ceoil 的诞生，\n离不开以下贡献者！"
+
+msgid "INSTRUMENT %d"
+msgstr "乐器 %d"
+
+msgid "! RECORDING: PATTERN %d !"
+msgstr "！正在录制：音型 %d！"
+
+msgid "default, high performance"
+msgstr "默认，高性能"
+
+msgid "try if you get cracking on .wav exports"
+msgstr "若导出 WAV 时有爆音可尝试"
+
+msgid "slow, not recommended"
+msgstr "速度较慢，不推荐"
+
+msgid "UNKNOWN (%d)"
+msgstr "未知（%d）"
+
+msgid "DELAY"
+msgstr "延迟"
+
+msgid "CHORUS"
+msgstr "合唱"
+
+msgid "REVERB"
+msgstr "混响"
+
+msgid "DISTORTION"
+msgstr "失真"
+
+msgid "LOW BOOST"
+msgstr "低频增强"
+
+msgid "COMPRESSOR"
+msgstr "压缩器"
+
+msgid "HIGH PASS"
+msgstr "高通"
+
+msgid "Scale: Normal"
+msgstr "音阶：自然"
+
+msgid "Scale: Major"
+msgstr "音阶：大调"
+
+msgid "Scale: Minor"
+msgstr "音阶：小调"
+
+msgid "Scale: Blues"
+msgstr "音阶：布鲁斯"
+
+msgid "Scale: Harmonic Minor"
+msgstr "音阶：和声小调"
+
+msgid "Scale: Pentatonic Major"
+msgstr "音阶：大调五声音阶"
+
+msgid "Scale: Pentatonic Minor"
+msgstr "音阶：小调五声音阶"
+
+msgid "Scale: Pentatonic Blues"
+msgstr "音阶：布鲁斯五声音阶"
+
+msgid "Scale: Chinese"
+msgstr "音阶：中国五声音阶"
+
+msgid "Chord: Major"
+msgstr "和弦：大三和弦"
+
+msgid "Chord: Minor"
+msgstr "和弦：小三和弦"
+
+msgid "Chord: 5th"
+msgstr "和弦：五度"
+
+msgid "Chord: Dom 7th"
+msgstr "和弦：属七"
+
+msgid "Chord: Major 7th"
+msgstr "和弦：大七"
+
+msgid "Chord: Minor 7th"
+msgstr "和弦：小七"
+
+msgid "Chord: Sus4"
+msgstr "和弦：挂四"
+
+msgid "Chord: sus2"
+msgstr "和弦：挂二"
+
+msgid "SELECTED NOTES COPIED"
+msgstr "已复制所选音符"
+
+msgid "SELECTED NOTES DELETED"
+msgstr "已删除所选音符"
+
+msgid "Instrument Name"
+msgstr "乐器名称"
+
+msgid "Scale"
+msgstr "音阶"
+
+msgid "TYPE"
+msgstr "类型"
+
+msgid "NAME"
+msgstr "名称"
+
+msgid "PATTERN SIZE"
+msgstr "音型长度"
+
+msgid "Description"
+msgstr "说明"
+
+msgid "Filepath memory"
+msgstr "记住文件路径"
+
+msgid "Playback"
+msgstr "播放"
+
+msgid "Pattern view"
+msgstr "音型视图"
+
+msgid "XM, MML exporters"
+msgstr "XM、MML 导出器"
+
+msgid "...And there are many more!"
+msgstr "……还有更多内容！"
+
+msgid "COLOR MODE"
+msgstr "配色模式"
+
+msgid "SOFT COLORS"
+msgstr "柔和显示"
+
+msgid "ULTRA SOFT"
+msgstr "超级柔和"
+
+msgid "SOFT"
+msgstr "柔和"
+
+msgid "BALANCED"
+msgstr "标准"
+
+msgid "CUSTOM"
+msgstr "自定义"
+
+msgid "COLOR SATURATION"
+msgstr "颜色饱和度"
+
+msgid "COLOR BRIGHTNESS"
+msgstr "颜色亮度"
+
+msgid "1 contribution"
+msgstr "1 次贡献"
+
+msgid "%s contributions"
+msgstr "%s 次贡献"
+
+msgid "ORIGINAL COLORS"
+msgstr "原始高饱和"
+
+msgid "ADD NEW"
+msgstr "新增"
+
+msgid "ADD NEW INSTRUMENT"
+msgstr "新增乐器"
+
+msgid "BOSCA CEOIL BLUE"
+msgstr "Bosca Ceoil Blue"
+
+msgid "Bosca Ceoil Shortcuts"
+msgstr "Bosca Ceoil 快捷键"
+
+msgid "Change cursor size"
+msgstr "改变光标长度"
+
+msgid "Change grid scale"
+msgstr "改变网格缩放"
+
+msgid "Copy selected bars"
+msgstr "复制所选小节"
+
+msgid "Copy selected notes"
+msgstr "复制所选音符"
+
+msgid "Create a pattern variant"
+msgstr "创建音型变体"
+
+msgid "Create new song"
+msgstr "新建乐曲"
+
+msgid "Draw a note"
+msgstr "绘制音符"
+
+msgid "Erase the note at the cursor"
+msgstr "擦除光标处的音符"
+
+msgid "Insert an empty bar"
+msgstr "插入空小节"
+
+msgid "Load existing song"
+msgstr "载入现有乐曲"
+
+msgid "Make it bigger"
+msgstr "放大"
+
+msgid "Make it smaller"
+msgstr "缩小"
+
+msgid "Paste copied bars"
+msgstr "粘贴已复制的小节"
+
+msgid "Paste copied notes"
+msgstr "粘贴已复制的音符"
+
+msgid "Pause/Resume"
+msgstr "暂停／继续"
+
+msgid "Play/Stop"
+msgstr "播放／停止"
+
+msgid "Quit Bosca Ceoil"
+msgstr "退出 Bosca Ceoil"
+
+msgid "Redo last action"
+msgstr "重做上一步操作"
+
+msgid "Remove the bar"
+msgstr "删除小节"
+
+msgid "Remove the pattern"
+msgstr "删除音型"
+
+msgid "Save as a copy"
+msgstr "另存为副本"
+
+msgid "Save current song"
+msgstr "保存当前乐曲"
+
+msgid "Scroll arrangement grid"
+msgstr "滚动编曲网格"
+
+msgid "Scroll it down"
+msgstr "向下滚动"
+
+msgid "Scroll it left"
+msgstr "向左滚动"
+
+msgid "Scroll it right"
+msgstr "向右滚动"
+
+msgid "Scroll it up"
+msgstr "向上滚动"
+
+msgid "Scroll pattern view"
+msgstr "滚动音型视图"
+
+msgid "Select and play the bar"
+msgstr "选择并播放该小节"
+
+msgid "Select and play to the end"
+msgstr "选择并播放至结尾"
+
+msgid "Select the note"
+msgstr "选择音符"
+
+msgid "Set it to the length of the note"
+msgstr "设为该音符的长度"
+
+msgid "Toggle fullscreen"
+msgstr "切换全屏"
+
+msgid "Undo last action"
+msgstr "撤销上一步操作"
+
+msgid "0 contributions"
+msgstr "0 次贡献"
+
+msgid "BASIC GUIDE"
+msgstr "基础指南"
+
+msgid "TIPS AND TRICKS"
+msgstr "技巧与提示"
+
+msgid "Basic shortcuts"
+msgstr "基础快捷键"
+
+msgid "Credits & License"
+msgstr "致谢与许可协议"
+
+msgid "Provided under an MIT license"
+msgstr "基于 MIT 许可证发布"
+
+msgid "Original Bosca Ceoil by Terry Cavanagh"
+msgstr "原版 Bosca Ceoil：Terry Cavanagh 创作"
+
+msgid "Support the project <3"
+msgstr "支持此项目 <3"
+
+msgid "Report issues"
+msgstr "报告问题"
+
+msgid "Contributors"
+msgstr "贡献者"
+
+msgid "THIRD PARTY"
+msgstr "第三方组件"
+
+msgid "Made with Godot Engine"
+msgstr "使用 Godot 引擎制作"
+
+msgid "LEGACY CREDITS"
+msgstr "原版致谢"
+
+msgid "Export to external format"
+msgstr "导出为外部格式"
+
+msgid "Import from external format"
+msgstr "从外部格式导入"
+
+msgid "FILE TYPE"
+msgstr "文件类型"
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid "from"
+msgstr "从"
+
+msgid "to"
+msgstr "至"
+
+msgid "No file selected"
+msgstr "未选择文件"
+
+msgid "SELECT"
+msgstr "选择"
+
+msgid "0 means AUTO"
+msgstr "0 表示自动"
+
+msgid "PLEASE WAIT"
+msgstr "请稍候"
+
+msgid "BACK"
+msgstr "返回"
+
+msgid "SHOW ALL"
+msgstr "显示全部"
+
+msgid "[UNBOUND]"
+msgstr "[未绑定]"
