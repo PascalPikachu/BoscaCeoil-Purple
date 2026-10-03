@@ -16,7 +16,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 config/name="Bosca Ceoil - Purple"
 config/description="A beginner-friendly music making app based on Bosca Ceoil Blue, with Purple community modifications for editing, localization, and customization."
-config/version="3.2"
+config/version="1.0"
 run/main_scene="res://Main.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="boscaceoil-blue"
@@ -27,7 +27,7 @@ boot_splash/stretch_mode=0
 boot_splash/image="res://dist/logo-full.png"
 config/icon="res://icon.png"
 config/windows_native_icon="res://dist/windows-icon.ico"
-config/version_flair="dev"
+config/version_flair=""
 
 [autoload]
 
